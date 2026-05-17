@@ -224,9 +224,9 @@ body::before {
 
 .hero-content h1 {
   margin: 0;
-  font-size: clamp(2.2rem, 3.2vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.04em;
+  font-size: clamp(1.9rem, 2.6vw, 2.6rem);
+  line-height: 1.16;
+  letter-spacing: -0.02em;
   color: #eef2ff;
 }
 
@@ -239,7 +239,7 @@ body::before {
   margin: 1.4rem auto 1.8rem;
   max-width: 620px;
   color: #c7d2f1;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   line-height: 1.75;
 }
 
@@ -247,8 +247,8 @@ body::before {
   margin: 0.8rem auto 2.4rem;
   max-width: 660px;
   color: #eaf0ff;
-  font-size: 1rem;
-  line-height: 1.65;
+  font-size: 1.05rem;
+  line-height: 1.75;
   font-weight: 700;
 }
 
@@ -322,13 +322,16 @@ body::before {
 
 .hero-additional ul {
   margin: 0;
-  padding-left: 1.2rem;
+  padding-left: 0;
+  list-style: none;
   color: #e7efff;
 }
 
 .hero-additional li {
   margin-bottom: 0.6rem;
+  padding-left: 0.6rem;
 }
+
 
 .hero-actions {
   display: flex;
