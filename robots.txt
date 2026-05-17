@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://helena-translations.com/sitemap.xml
